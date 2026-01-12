@@ -76,4 +76,5 @@ def fibonacci_recursive(n):
     
 n = int(input("Enter number of terms: "))
 fib_sequence = fibonacci_recursive(n)
+
 print(*fib_sequence)
